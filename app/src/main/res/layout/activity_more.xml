@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Privacy Policy Information"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="MediGO privacy policy describes the information we collect,how it is used and shared,and your choices regarding this information."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text=" This policy applies to any users of the services of MediGO or its affiliates anywhere in india,and to anyone else who contacts app or otherwise submits information to MediGO,unless noted in the Privacy Policy "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="Legal Information"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Request for information received from authorized law enforcement authorities will be responded to according the MediGO policies,terms and applicable laws"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="App Permissions"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="After your download and open the MediGO app,your mobile device will notify you when the app request various permissions.Granting the MediGO app this access supports the best possible experience(All Terms And Conditions Apply)"/>
+
+
+</LinearLayout>

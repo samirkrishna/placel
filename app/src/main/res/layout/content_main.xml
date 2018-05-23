@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="-------------------------------------------------------------------------------------"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.075"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:id="@+id/TF_location"
+            android:hint="enter location:"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_search_black_24dp"
+            android:id="@+id/B_search"
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/B_restaurants"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="onClick"
+                android:text="restaurant"
+                android:background="@drawable/round"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/B_schools"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="onClick"
+                android:text="school"
+                android:background="@drawable/round"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/B_theaters"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="onClick"
+                android:text="theaters"
+                android:background="@drawable/round"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/B_police"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="onClick"
+                android:text="police"
+                android:background="@drawable/round"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/B_postoffice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="onClick"
+                android:text="PostOffice"
+                android:background="@drawable/round"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/B_hotels"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="onClick"
+                android:text="Hotels"
+                android:background="@drawable/round"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/B_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="onClick"
+                android:text="bank"
+                android:background="@drawable/round"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"
+                />
+            <Button
+                android:id="@+id/B_atm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="onClick"
+                android:text="atm"
+                android:background="@drawable/round"
+                android:textColor="#FFFFFF"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.830"></fragment>
+
+</LinearLayout>
